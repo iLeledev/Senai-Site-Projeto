@@ -106,3 +106,40 @@ ul li a:hover{
 .slidenav a:hover {
     opacity: 1;
 }
+
+.texto-estoque{
+    text-align: center;
+    ;
+}
+
+.section-title{
+    text-align: center;
+
+}
+
+.shop-content{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+}
+
+.product-box {
+    position: relative;
+}
+
+.product-box:hover {
+    padding: 10px;
+    transition: 0.4s;
+}
+
+.product-img {
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.product-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
