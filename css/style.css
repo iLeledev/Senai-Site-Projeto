@@ -33,12 +33,13 @@ ul li a{
     color: white;
     padding: 5px 20px;
     border: 1px solid transparent;
-    transition: 0.5 ease;
+    transition: all 1s ease;
 }
 
 ul li a:hover{
     background-color: #2a4858;
     color: white;
+    border-radius: 10px;
 
 }
 
@@ -355,3 +356,12 @@ ul li a:hover{
     padding: 1%;
     border-bottom: 1px solid white;
 }
+
+
+.bodycontato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+

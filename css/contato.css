@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+
+
+header{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+ul{
+    text-align: center;
+    margin-bottom: 10px;
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration:none ;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: all 1s ease;
+}
+
+ul li a:hover{
+    background-color: #2a4858;
+    color: white;
+    border-radius: 10px;
+
+}
+
+
+.inicio{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1px;
+}
+
+.logo img{
+    float: left;
+    height: auto;
+    width: 100px;
+}
+
+.bodycontato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #1d1d2e;
+    width: 500px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+section h2{
+    color: white;
+    font-size: 2.5rem ;
+    margin: 2rem;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 16px;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+form textarea:focus{
+    border-radius: 16px;
+}
+
+form button{
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: all 1s;
+    margin-bottom: 20px;
+     
+}
+
+form button:hover{
+    background: white;
+    color: black;
+    border-radius: 16px;
+
+}
+/*Pagina de obrigado*/
+.main{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 45px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.paragrafo{
+    color: black;
+    margin-bottom: 50px ;
+}
+
+.btn {
+    padding: 15px 55px;
+    background: black;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    border-radius: 18px;
+}
