@@ -117,29 +117,46 @@ ul li a:hover{
 
 .section-title{
     text-align: center;
+    padding: 30px;
 
 }
 
 .shop-content{
     display: grid;
     text-align: center;
+    border-radius: 20px;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
 }
 
 .product-box {
+    text-decoration: none;
     position: relative;
     transition: all 0.5s;
+    padding: 30px;
     height: 300px;
+    
+    
+    
+    
+}
+
+.nameproduct {
+  text-decoration: none;
+  color: black;
 }
 
 .product-box:hover {
     padding: 10px;
     transition: 0.5s;
+    border-radius: 10px;
+    border: solid;
+    
 }
 
 .product-img {
     height: auto;
     margin-bottom: 0.5rem;
+    
 }
 
 .product-title {
@@ -147,6 +164,7 @@ ul li a:hover{
     font-weight: 200px;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
+    
 }
 
 
