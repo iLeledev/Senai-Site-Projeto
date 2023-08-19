@@ -4,9 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
-
-
+html {
+  scroll-behavior: smooth;
+}
 
 
 header{
@@ -128,11 +128,13 @@ ul li a:hover{
 
 .product-box {
     position: relative;
+    transition: all 0.5s;
+    height: 300px;
 }
 
 .product-box:hover {
     padding: 10px;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
 .product-img {
@@ -142,7 +144,7 @@ ul li a:hover{
 
 .product-title {
     font-size: 1.1rem;
-    font-weight: 600;
+    font-weight: 200px;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
 }
@@ -155,6 +157,7 @@ ul li a:hover{
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
+    line-height: 100px;
     text-align: left;
     font: bold 16px sans-serif;
     padding: 55px 50px;
@@ -339,6 +342,10 @@ ul li a:hover{
     padding: 30px;
     justify-content: space-around;
     flex-direction: row;
+  }
+
+  .faq {
+    height: 500px;
   }
   
 
